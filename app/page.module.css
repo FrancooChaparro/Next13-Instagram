@@ -1,0 +1,281 @@
+
+.ContainerProfile { 
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 15px;  
+    margin: 0 auto;
+    margin-top: 20px;
+    user-select: none;
+}
+
+
+
+
+.HeaderProfile { 
+    width: 100%;
+    height: 200px;
+    border-top:0.02rem solid rgb(185, 182, 182); 
+    border-right:0.02rem solid rgb(185, 182, 182); ;
+    border-left:0.02rem solid rgb(185, 182, 182); ;
+    display: flex;
+    margin: 0 auto;
+}
+
+.ContainerImg { 
+    width: 32%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ContainerImg img { 
+    width: 60%;
+    height: 75%;
+    border-radius: 50%;
+}
+
+
+
+
+.ContainerData { 
+    width: 68%;
+  
+}
+
+.top { 
+    display: flex; 
+    height: 30%;
+    padding-left: 12px;
+}
+
+.top span { 
+    font-size: 26px;
+    margin-right: 6px;
+}
+
+.top button { 
+    font-size: 16px;
+    margin-right: 10px;
+    border-radius: 4px;
+    background-color: white;
+    border: 0.02rem solid rgb(185, 182, 182);
+    width: 120px;
+    cursor: pointer;
+}
+
+
+.top div {
+    margin-top: 9px; 
+    align-items: center;
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+
+.mid {
+    display: flex; 
+    height: 30%;
+    padding-left: 12px;
+}
+
+.mid div { 
+    margin-right: 30px;
+    padding-top: 10px;
+}
+
+.bot { 
+    display: flex; 
+    height: 40%;
+    padding-left: 12px;
+}
+
+.bot div { 
+    margin-right: 15px;
+}
+
+.hash { 
+    color: rgb(40, 142, 173)
+}
+
+
+
+.BodyProfile{ 
+    width: 100%;
+    height: 400px;
+    border: 0.01rem solid rgb(226, 223, 223);
+    margin: 0 auto;  
+}
+
+.BodyMenu { 
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 45px;
+    align-items: center;
+}
+
+.BodyMenu div { 
+    width: 160px;
+    font-size: 17px;
+    color: rgb(167, 161, 161);
+}
+
+
+.BodyPosts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ImgCont { 
+    width: 31%;
+    height: 270px;
+}
+
+.ImgCont img { 
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+@media (max-width: 450px) {
+   .ResponsiveContainer { 
+     width: 100%;
+     height: 780px;
+
+   }
+   .ResponsiveHeader {
+     height: 17%;
+  
+     display: flex;
+   }
+   .ResponsiveHeaderTop { 
+        width: 30%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+   }
+   .ResponsiveHeaderTop img { 
+     border-radius: 50%;
+     width: 80%;
+     height: 80%;
+     border: 3px solid rgb(206, 69, 206);
+   }
+   .ResponsiveHeaderBot { 
+       width: 70%;
+       display: flex;
+       justify-content: space-around;
+   }
+   .ResponsiveHeaderBot div { 
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+   }
+
+   
+
+   
+
+    
+
+
+   .ResponsiveData { 
+    height: 13%;
+   }
+   .ResponsiveDataTop { 
+    height: 50%;  
+}
+
+.ResponsiveDataTop { 
+ padding-left: 11px;
+}
+
+.ResponsiveDataBot { 
+height: 50%;
+display: flex;
+
+}
+
+.ResponsiveDataBtn { 
+    width: 83%;
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.ResponsiveDataBtn1 {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid grey;
+    border-radius: 5%;
+    width: 96%;
+    height: 85%;
+    font-size: 20px;
+}
+
+.ResponsiveDataIcon {
+    width: 17%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ResponsiveDataIcon span { 
+    width: 78%;
+    border: 1px solid rgb(53, 52, 52);
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 78%;
+ 
+}
+
+.Responsiveicon { 
+    font-size: 28px;
+    color: black;
+}
+
+
+
+
+
+   .ResponsiveContainerIcons { 
+    height: 7%;
+    display: flex;
+   }
+   .ResponsiveContainerIcons div { 
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    color: rgb(82, 81, 81);
+   }
+
+
+
+
+
+   .ResponsiveContainerImg { 
+    height: 63%;
+    width: 99%;
+   }
+  .ResponsiveAcople { 
+    padding-left: 3px;
+    display: flex;
+    width: 100%;
+    height: 33%;
+   }
+   .ResponsivePost {
+     width: 33%;
+   }
+   .ResponsivePost img { 
+    width: 98%;
+    height: 98%;
+   } 
+ }
